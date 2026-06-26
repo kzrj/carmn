@@ -79,6 +79,13 @@ scripts/drom/marks/*
 scripts/drom/**/*.html
 scripts/drom/**/*_files/
 
+# --- Бэкапы и дампы ---
+rest_data/
+*.sql
+*.tar.gz
+listings_backup/
+media_backup/
+
 # --- Прочее ---
 *.swp
 *.swo
