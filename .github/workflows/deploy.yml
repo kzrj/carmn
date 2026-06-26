@@ -18,3 +18,4 @@ jobs:
             cd /root/carmn
             git pull origin main
             docker compose up -d --build
+            docker restart carmn-nginx-1
